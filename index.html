@@ -58,16 +58,55 @@
 
   </header><!-- End Header -->
  
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Matthew Waldeck</h1>
-      <p>I'm <span class="typed" data-typed-items="Developer,Full-stack Developer, Back-end Developer"></span></p>
-      <div class="social-links">
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i> https://www.linkedin.com/in/matthew-waldeck-a77884255/ </a>
-      </div>
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex flex-column justify-content-center">
+  <div class="container text-center" data-aos="zoom-in" data-aos-delay="100">
+    <h1>Matthew Waldeck</h1>
+    <p>I'm <span class="typed" data-typed-items="Developer, Full-stack Developer, Back-end Developer"></span></p>
+    <div class="social-links mt-3">
+      <a href="https://www.linkedin.com/in/matthew-waldeck-a77884255/" class="linkedin">
+
+      </a>
     </div>
-  </section><!-- End Hero -->
+  </div>
+</section>
+<!-- End Hero -->
+
+<style>
+  #hero {
+    padding: 20px;
+  }
+  #hero h1 {
+    font-size: 2rem; /* Scales the header size for mobile screens */
+    word-wrap: break-word;
+  }
+  #hero p {
+    font-size: 1rem; /* Adjusts paragraph font size for better readability */
+  }
+  #hero .social-links {
+    display: flex;
+    flex-direction: column; /* Stacks social links vertically */
+    align-items: center;
+    margin-top: 10px;
+  }
+  #hero .social-links a {
+    font-size: 0.9rem; /* Scales down the link font size */
+    text-align: center;
+    word-wrap: break-word;
+  }
+  @media (min-width: 768px) {
+    #hero h1 {
+      font-size: 2.5rem; /* Larger font size for tablets and above */
+    }
+    #hero p {
+      font-size: 1.2rem;
+    }
+    #hero .social-links {
+      flex-direction: row; /* Aligns links horizontally for larger screens */
+    }
+  }
+</style>
+
 
   <main id="main">
 
@@ -522,12 +561,11 @@
       <h3>Matthew Waldeck</h3>
       <p>Ready to leverage my experience and creativity to make a positive impact in the world of technology.</p>
       <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/matthew-waldeck-a77884255/" class="linkedin" target="_blank">
+          <i class="bx bxl-linkedin"></i> 
+        </a>
       </div>
+      
       <div class="copyright">
         &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
       </div>
